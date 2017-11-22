@@ -1,0 +1,26 @@
+{
+    "name": "chaospower/omnipay-paymaya",
+    "description": "Omnipay PayMaya Payment Gateway",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "omnipay/common": "~2.0",
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Randy Glenn Aguirre",
+            "email": "rgat.randy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\PayMaya\\": "src/",
+            "Omnipay\\PayMaya\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
