@@ -13,6 +13,6 @@ class Response extends AbstractResponse
      */
     public function isSuccessful()
     {
-        dd($this);
+        return !isset($this->data['code']);
     }
 }
